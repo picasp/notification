@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFIKASI"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/etJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pesan"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnNotif"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Send"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
